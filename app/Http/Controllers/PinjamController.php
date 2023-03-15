@@ -15,8 +15,7 @@ class PinjamController extends Controller
 {
     public function index()
     {
-        $datapinjam = peminjaman::all();
-        // orderBy('idpinjam', 'ASC');
+        $datapinjam = peminjaman::all();    
 
         $datapetugas    = User::all();
         $datasiswa      = siswa::all();

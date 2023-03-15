@@ -1,7 +1,7 @@
 @extends('layouts')
 
 @section('content')
-<body class="vh-100 body d-flex align-items-center justify-content-center bg-light">
+<body class="vh-100 d-flex align-items-center justify-content-center bg-light">
     <div class="col-3 card p-4 shadow text-center d-flex align-items-center">
         <div class="d-flex justify-content-center">
             <img src="{{ asset('../image/SMKN 1 Cimahi.png') }}" alt="" style="width: 100px;">
